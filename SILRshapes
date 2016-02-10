@@ -1,0 +1,11 @@
+#Box Dimension Calculator
+
+x = int(input ("Enter the depth for a square box"))
+print(x)
+y = int(input ("Enter the width for a square box"))
+print(y)
+z = int(input ("Enter the height for a square box"))
+v = str(x*y*z)
+s = str(2*x*y + 2*y*z)
+print ("The volume of the box is " +v)
+print ("The surface area of the box is " +s)
