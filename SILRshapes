@@ -1,25 +1,25 @@
-#Box
-x = int(input ("Enter the depth for a box"))
-print(x)
-y = int(input ("Enter the width for a box"))
-print(y)
-z = int(input ("Enter the height for a box"))
-v = str(x*y*z)
-s = str(2*x*y + 2*y*z)
-print ("The volume of the box is " +v)
-print ("The surface area of the box is " +s)
+class Box:
+        x = int(input ("Enter the depth for a box"))
+        print(x)
+        y = int(input ("Enter the width for a box"))
+        print(y)
+        z = int(input ("Enter the height for a box"))
+        v = str(x*y*z)
+        s = str(2*x*y + 2*y*z)
+        print ("The volume of the box is " +v)
+        print ("The surface area of the box is " +s)
 
-#Pyramid 
-b = int(input ("Enter the base area for the pyramid"))
-h = int(input ("Enter the height for the pyramid"))
-v = str((b*h)/3)
-s = str((2*b*h)+(b*b))
-print ("The volume of the pyramid is " +v)
-print ("The surface area of the pyramid is " +s)
+class Pyramid:
+    b = int(input ("Enter the base area for the pyramid"))
+    h = int(input ("Enter the height for the pyramid"))
+    v = str((b*h)/3)
+    s = str((2*b*h)+(b*b))
+    print ("The volume of the pyramid is " +v)
+    print ("The surface area of the pyramid is " +s)
 
-#Sphere
-r = int(input ("Enter the radius for the sphere"))
-v = str((4*3.14*(r*r*r))/3)
-s = str(4*3.14*(r*r))
-print ("The volume of the sphere is " +v)
-print ("The surface area of the sphere is " +s)
+class Sphere:
+    r = int(input ("Enter the radius for the sphere"))
+    v = str((4*3.14*(r*r*r))/3)
+    s = str(4*3.14*(r*r))
+    print ("The volume of the sphere is " +v)
+    print ("The surface area of the sphere is " +s)
