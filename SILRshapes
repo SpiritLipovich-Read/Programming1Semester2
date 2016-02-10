@@ -16,3 +16,10 @@ v = str((b*h)/3)
 s = str((2*b*h)+(b*b))
 print ("The volume of the pyramid is " +v)
 print ("The surface area of the pyramid is " +s)
+
+#Sphere
+r = int(input ("Enter the radius for the sphere"))
+v = str((4*3.14*(r*r*r))/3)
+s = str(4*3.14*(r*r))
+print ("The volume of the sphere is " +v)
+print ("The surface area of the sphere is " +s)
